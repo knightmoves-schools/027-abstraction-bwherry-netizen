@@ -1,7 +1,7 @@
 ﻿namespace knightmoves;
 public class TaxCalculator
 {
-    public int Rate = 15;
+    private int _Rate = 15;
     public string State = "TX";
     public bool Exempt = false;
     
@@ -13,13 +13,14 @@ public class TaxCalculator
         }
     }
 
-    public int CalculateNonExempt(double v)
+    private int _CalculateNonExempt(double v)
     {
         return 0;
     }
 
-    public int CalculateExempt(double v)
+    private int _CalculateExempt(double v)
     {
         return 0;
     }
 }
+
