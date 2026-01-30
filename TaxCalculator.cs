@@ -13,15 +13,16 @@ public class TaxCalculator
         }
     }
 
-    private int CalculateNonExempt(double v)
+    private int _CalculateNonExempt(double v)
     {
         return 0;
     }
 
-    private int CalculateExempt(double v)
+    private int _CalculateExempt(double v)
     {
         return 0;
     }
 }
+
 
 
