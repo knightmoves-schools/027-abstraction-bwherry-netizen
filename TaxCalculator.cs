@@ -7,20 +7,21 @@ public class TaxCalculator
     
     public int Calculate(){
         if(Exempt){
-            return CalculateExempt(1.37);
+            return _CalculateExempt(1.37);
         }else{
-            return CalculateNonExempt(5.72);
+            return _CalculateNonExempt(5.72);
         }
     }
 
-    private int _CalculateNonExempt(double v)
+    private int CalculateNonExempt(double v)
     {
         return 0;
     }
 
-    private int _CalculateExempt(double v)
+    private int CalculateExempt(double v)
     {
         return 0;
     }
 }
+
 
